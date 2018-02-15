@@ -1,0 +1,18 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m"
+    xmlns:form="sap.ui.layout.form"
+		controllerName="zview02.MyView" xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="Title">
+		<content>
+	          <form:SimpleForm>
+	            
+	              <form:content>
+	                 <Label text="Company Name"/>
+	                 <Input id="cName"/>
+                     <Label text="Company Address"/>
+	                 <Input id="cAddr"/>
+                           	                 
+	              </form:content>
+	          </form:SimpleForm> 
+		</content>
+	</Page>
+</core:View>
